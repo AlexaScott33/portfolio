@@ -1,0 +1,108 @@
+/* red-#FA4659 */
+/* brown-#2C2C2C */
+/* white-##FCFCFC */
+/* blue-##33CCCC */
+/* dark blue - #264e86 */
+
+body {
+    background-color: #2C2C2C;
+}
+
+header {
+    padding: 20px 15px;
+}
+
+.header-container {
+    position: fixed;
+}
+
+#logo {
+    width: 60px;
+    height: 60px;
+    background-color: #33CCCC;
+    text-align: center;
+    display: inline-block;
+}
+
+.nav-bar {
+   float: right;
+   /* padding-left: 52rem; */
+}
+
+.nav-bar a {
+    color: #FCFCFC;
+    padding: 15px 15px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+/* unvisited link */
+/* a:link {
+    color: red;
+} */
+
+/* visited link */
+/* a:visited {
+    color: green;
+} */
+
+/* mouse over link */
+a:hover {
+    color: #33CCCC;
+}
+
+/* selected link */
+/* a:active {
+    color: blue;
+} */
+
+.title {
+    padding: 100px 0 330px;
+    /* background: url(https://images.unsplash.com/photo-1518658963559-3698900fc8a4?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=aefc46a158500b5950d052278a793663&auto=format&fit=crop&w=1267&q=80) no-repeat center center;  */
+}
+
+#b1 {
+    /* background-color: #20366b; */
+    background: url(https://images.unsplash.com/photo-1518658963559-3698900fc8a4?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=aefc46a158500b5950d052278a793663&auto=format&fit=crop&w=1267&q=80) no-repeat center center; 
+}
+
+#b2 {
+    background: url(https://images.unsplash.com/photo-1503756234508-e32369269deb?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=47b63db904d2c72377ffc588f645eb45&auto=format&fit=crop&w=2550&q=80) no-repeat center center; 
+}
+
+.title h1 {
+    color: #FCFCFC;
+    font-size: 50px;
+    text-align: center;
+}
+
+.title h3 {
+    color: #FCFCFC;
+    font-size: 20px;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.title p {
+    color: #FCFCFC;
+    text-align: center;
+}
+
+main {
+    margin-top: 3rem;
+}
+
+.section-title {
+    font-size: 1.5rem;
+
+}
+
+img {
+    width: 50%;
+}
+
+.info {
+        width: 50%;
+        float: right;
+        background-color: #FCFCFC;
+}

@@ -1,0 +1,88 @@
+.project-section {
+    margin: 100px 0;
+}
+
+.project-section h2 {
+    width: 100%; 
+    text-align: center; 
+    /* border-bottom: 1px solid #FA4659; 
+    line-height: 0.1em; */
+    margin: 10px 0 20px; 
+ } 
+ 
+.project-container {
+    padding: 100px 130px 200px;
+}
+
+/* .project-wrapper {
+    background-color: #FCFCFC;
+    margin: 20px 0;
+} */
+
+/* .hover-box {
+    background-image: url(https://user-images.githubusercontent.com/24361293/42062664-13bb2546-7ae3-11e8-896e-398cde45e59a.png);
+} */
+
+.project-img {
+    width: 50%;
+}
+
+.project-two-img {
+    width: 20%;
+    padding-left: 6rem;
+}
+
+.github-img {
+    width: 5%;
+}
+
+.project-box-one, .project-box-two, .project-box-three, .project-box-four {
+    width: 50%;
+    height: 250px;
+    margin: 20px 20px;
+    background-color: #FCFCFC;
+}
+
+.project-container .project-box-one .hover-box {
+    position: relative;
+    left: -100;
+    height: 100%;
+}
+
+.project-container .project-box-one:hover .hover-box {
+    background: #33CCCC;
+    transition: all .7s ease;
+}
+
+.project-container .project-box-two .hover-box {
+    position: relative;
+    left: -100;
+    height: 100%;
+}
+
+.project-container .project-box-two:hover .hover-box {
+    background: #FA4659;
+    transition: all .7s ease;
+}
+
+.project-container .project-box-three .hover-box {
+    position: relative;
+    left: -100;
+    height: 100%;
+}
+
+.project-container .project-box-three:hover .hover-box {
+    background: #33CCCC;
+    transition: all .7s ease;
+}
+
+.project-container .project-box-four .hover-box {
+    position: relative;
+    left: -100;
+    height: 100%;
+}
+
+.project-container .project-box-four:hover .hover-box {
+    background: #FA4659;
+    transition: all .7s ease;
+}
