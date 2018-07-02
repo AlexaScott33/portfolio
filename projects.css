@@ -1,5 +1,5 @@
 .project-section {
-    margin: 100px 0;
+    margin: 5rem 0;
 }
 
 .project-section h2 {
@@ -10,9 +10,9 @@
     margin: 10px 0 20px; 
  } 
  
-.project-container {
+/* .project-container {
     padding: 100px 130px 200px;
-}
+} */
 
 /* .project-wrapper {
     background-color: #FCFCFC;
@@ -23,6 +23,10 @@
     background-image: url(https://user-images.githubusercontent.com/24361293/42062664-13bb2546-7ae3-11e8-896e-398cde45e59a.png);
 } */
 
+.project-name {
+    text-align: center;
+}
+
 .project-img {
     width: 50%;
 }
@@ -32,8 +36,18 @@
     padding-left: 6rem;
 }
 
+.test {
+    
+}
+
+.tech-icon {
+    width: 10%;
+    padding: 1rem 1rem;
+}
+
 .github-img {
     width: 5%;
+    display: block;
 }
 
 .project-box-one, .project-box-two, .project-box-three, .project-box-four {

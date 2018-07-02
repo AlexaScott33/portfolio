@@ -3,9 +3,12 @@
 /* white-##FCFCFC */
 /* blue-##33CCCC */
 /* dark blue - #264e86 */
+/* font-family: 'Armata', sans-serif; */
+/* font-family: 'Roboto', sans-serif; */
 
 body {
     background-color: #2C2C2C;
+    font-family: 'Armata', sans-serif;
 }
 
 header {
@@ -36,10 +39,11 @@ header {
     text-decoration: none;
 }
 
-/* unvisited link */
-/* a:link {
-    color: red;
-} */
+
+a {
+    color: #FA4659;
+    text-decoration: none;
+ }
 
 /* visited link */
 /* a:visited {
@@ -61,10 +65,11 @@ a:hover {
     /* background: url(https://images.unsplash.com/photo-1518658963559-3698900fc8a4?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=aefc46a158500b5950d052278a793663&auto=format&fit=crop&w=1267&q=80) no-repeat center center;  */
 }
 
-#b1 {
-    /* background-color: #20366b; */
+/* #b1 {
+    /* background-color: #20366b;
     background: url(https://images.unsplash.com/photo-1518658963559-3698900fc8a4?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=aefc46a158500b5950d052278a793663&auto=format&fit=crop&w=1267&q=80) no-repeat center center; 
 }
+*/
 
 #b2 {
     background: url(https://images.unsplash.com/photo-1503756234508-e32369269deb?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=47b63db904d2c72377ffc588f645eb45&auto=format&fit=crop&w=2550&q=80) no-repeat center center; 
@@ -72,15 +77,15 @@ a:hover {
 
 .title h1 {
     color: #FCFCFC;
-    font-size: 50px;
+    font-size: 3rem;
     text-align: center;
 }
 
-.title h3 {
+.title h2 {
     color: #FCFCFC;
-    font-size: 20px;
-    padding: 10px 0;
+    font-size: 2.5rem;
     text-align: center;
+    padding: 2rem 0;
 }
 
 .title p {
@@ -94,7 +99,6 @@ main {
 
 .section-title {
     font-size: 1.5rem;
-
 }
 
 img {
@@ -105,4 +109,9 @@ img {
         width: 50%;
         float: right;
         background-color: #FCFCFC;
+        font-family: 'Roboto', sans-serif;
+}
+
+p {
+    padding: 1rem 1rem;
 }
