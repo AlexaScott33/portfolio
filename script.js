@@ -23,6 +23,12 @@ $(function() {
 //   document.getElementById('overlay').style.background = 'url(https://images.unsplash.com/photo-1503756234508-e32369269deb?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=47b63db904d2c72377ffc588f645eb45&auto=format&fit=crop&w=2550&q=80)';
 // }
 
+$(document).ready(function(){
+  $(window).scroll(function(){
+    console.log('scrolling');
+  });
+});
+
 // function run(interval, frames) {
 //   var int = 1;
   

@@ -61,28 +61,30 @@ a:hover {
 } */
 
 .title {
-    padding: 100px 0 330px;
-    /* background: url(https://images.unsplash.com/photo-1518658963559-3698900fc8a4?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=aefc46a158500b5950d052278a793663&auto=format&fit=crop&w=1267&q=80) no-repeat center center;  */
+    background: url(https://images.unsplash.com/photo-1522092787785-60123fde65c4?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=94d6ebf03fdc6a3c8159ac9aeceb0483&auto=format&fit=crop&w=800&q=60) no-repeat center;
+    padding: 15rem 0;
 }
 
 /* #b1 {
-    /* background-color: #20366b;
-    background: url(https://images.unsplash.com/photo-1518658963559-3698900fc8a4?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=aefc46a158500b5950d052278a793663&auto=format&fit=crop&w=1267&q=80) no-repeat center center; 
-}
-*/
+    /* background: url(https://images.unsplash.com/photo-1522092787785-60123fde65c4?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=94d6ebf03fdc6a3c8159ac9aeceb0483&auto=format&fit=crop&w=800&q=60) no-repeat center center; */
+    /* background: url(https://images.unsplash.com/photo-1518658963559-3698900fc8a4?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=aefc46a158500b5950d052278a793663&auto=format&fit=crop&w=1267&q=80) no-repeat center center;  */
 
-#b2 {
+
+
+/* .b2 {
+    width: 50%;
+    float: right;
     background: url(https://images.unsplash.com/photo-1503756234508-e32369269deb?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=47b63db904d2c72377ffc588f645eb45&auto=format&fit=crop&w=2550&q=80) no-repeat center center; 
-}
+} */
 
 .title h1 {
-    color: #FCFCFC;
+    color: #2C2C2C;
     font-size: 3rem;
     text-align: center;
 }
 
 .title h2 {
-    color: #FCFCFC;
+    color: #2C2C2C;
     font-size: 2.5rem;
     text-align: center;
     padding: 2rem 0;
@@ -106,12 +108,22 @@ img {
 }
 
 .info {
-        width: 50%;
-        float: right;
-        background-color: #FCFCFC;
-        font-family: 'Roboto', sans-serif;
+    width: 50%;
+    float: right;
+    background-color: #FCFCFC;
+    font-family: 'Roboto', sans-serif;
 }
 
 p {
     padding: 1rem 1rem;
+}
+
+.icon-container a p {
+    font-size: .5rem;
+    display:none;
+}
+
+.icon-container a:hover p {
+    padding-bottom: 1rem;
+    display: block;
 }

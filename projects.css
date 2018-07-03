@@ -37,17 +37,16 @@
 }
 
 .test {
-    
+
 }
 
 .tech-icon {
     width: 10%;
-    padding: 1rem 1rem;
+    /* padding: 1rem 1rem; */
 }
 
-.github-img {
+.github-icon {
     width: 5%;
-    display: block;
 }
 
 .project-box-one, .project-box-two, .project-box-three, .project-box-four {
