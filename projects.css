@@ -24,6 +24,7 @@
 } */
 
 .project-name {
+    font-size: 1.5rem;
     text-align: center;
 }
 
@@ -36,16 +37,25 @@
     padding-left: 6rem;
 }
 
-.test {
-
-}
-
-.tech-icon {
-    width: 10%;
+.tech-icon-mongo {
+    width: 3.2rem;
     /* padding: 1rem 1rem; */
 }
 
+.tech-icon-express {
+    width: 5.5rem;
+}
+
+.tech-icon-react {
+    width: 5.2rem;
+}
+
+.tech-icon-node {
+    width: 4.2rem;
+}
+
 .github-icon {
+    padding: 1rem 1rem;
     width: 5%;
 }
 
@@ -98,4 +108,10 @@
 .project-container .project-box-four:hover .hover-box {
     background: #FA4659;
     transition: all .7s ease;
+}
+
+.tech-stack {
+    font-weight: 800;
+    padding-top: 1rem;
+    padding-left: 1rem;
 }
