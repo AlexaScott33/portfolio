@@ -2,6 +2,7 @@
 
 /* global $ */
 
+//nav scroll to on click
 $(function() {
   $('a[href*=#]:not([href=#])').click(function() {
     if (location.pathname.replace(/^\//,'') === this.pathname.replace(/^\//,'') 
@@ -19,15 +20,82 @@ $(function() {
   });
 });
 
+//hide hamburger and show once scrolled
+$(document).ready(function(){
+  $('.hamburger').hide();
+  if($(window).scroll(function(){
+    $('.nav-bar').hide();
+    $('.hamburger').show();
+  }));
+});
+
+
+
+//menu animation
+$( document ).ready(function() {
+  // $('.hamburger').hide();
+  // if($(window).scroll(function(){
+  //   $('.nav-bar').hide();
+  //   $('.hamburger').show();
+  $( '.cross' ).hide();
+  $( '.menu' ).hide();
+  $( '.hamburger' ).click(function() {
+    $( '.menu' ).slideToggle( 'slow', function() {
+      $( '.hamburger' ).hide();
+      $( '.cross' ).show();
+    });
+  });
+
+  $('.menu-item').click(function() {
+    $('.menu').hide();
+    $( '.cross' ).hide();
+  });
+  
+  $( '.cross' ).click(function() {
+    $( '.menu' ).slideToggle( 'slow', function() {
+      $( '.cross' ).hide();
+      $( '.hamburger' ).show();
+    });
+  });
+});
+
+
+
+
+let stickyTop = $('#stickyBanner').offset().top;
+
+$(window).on( 'scroll', function(){
+  if ($(window).scrollTop() >= $('#stickyBanner').offset().top) {
+    console.log('not at the top');
+    $('.nav-bar').hide();
+  } else {
+    console.log('at the top');
+    $('.nav-bar').show();
+  }
+});
+
 // function on() {
 //   document.getElementById('overlay').style.background = 'url(https://images.unsplash.com/photo-1503756234508-e32369269deb?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=47b63db904d2c72377ffc588f645eb45&auto=format&fit=crop&w=2550&q=80)';
 // }
 
-$(document).ready(function(){
-  $(window).scroll(function(){
-    console.log('scrolling');
-  });
-});
+// $(document).ready(function(){
+//   $(window).scroll(function(){
+//     if($(document).scrollTop()<=('#about').top) {
+//       console.log('reached about section');
+//     }
+//   });
+// });
+
+
+
+// $(document).on('scroll',function(){
+//   if($(document).scrollTop()>=$('#about').offset().top && $(document).scrollTop()<$('#work').offset().top){ //assuming the about section has an id called about (#about)
+//       $('.icon_black').removeClass('icon_black').addClass('icon_white');
+//   }
+//   else{
+//       $('.icon_white').removeClass('icon_white').addClass('icon_black');
+//   }
+// });
 
 // function run(interval, frames) {
 //   var int = 1;

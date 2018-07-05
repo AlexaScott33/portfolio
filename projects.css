@@ -32,9 +32,13 @@
     width: 50%;
 }
 
+.project-one-img {
+    width: 50%;
+}
+
 .project-two-img {
-    width: 20%;
-    padding-left: 6rem;
+    width: 15%;
+    padding-left: 10rem;
 }
 
 .tech-icon-mongo {
