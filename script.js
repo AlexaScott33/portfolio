@@ -32,7 +32,8 @@ $(window).on( 'scroll', function(){
     //console.log('not at the top');
     $('.nav-bar').hide();
     $('.hamburger').show();
-  } else {
+  } 
+  else {
     //console.log('at the top');
     $('.hamburger').hide();
     $('.nav-bar').show();
