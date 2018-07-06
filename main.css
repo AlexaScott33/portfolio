@@ -57,6 +57,30 @@ header {
     padding: 1rem 1rem;
     color: #2C2C2C;
     }
+
+    .menu {
+        z-index:1000000; 
+        font-weight:bold; 
+        font-size:0.8em; 
+        width:92%; 
+        background:#f1f1f1;  
+        position:fixed;
+        text-align:center; 
+        font-size:12px;
+      }
+}
+
+@media only screen and (min-width: 640px) {
+    .menu {
+        z-index:1000000; 
+        font-weight:bold; 
+        font-size:0.8em; 
+        width:96%; 
+        background:#f1f1f1;  
+        position:fixed;
+        text-align:center; 
+        font-size:12px;
+      }
 }
 
 @media only screen and (min-width: 960px) {
@@ -83,6 +107,17 @@ header {
         font-size: 2.5rem;
         text-align: center;
     }
+
+    .menu {
+        z-index:1000000; 
+        font-weight:bold; 
+        font-size:0.8em; 
+        width:98%; 
+        background:#f1f1f1;  
+        position:fixed;
+        text-align:center; 
+        font-size:12px;
+      }
 }
 
 
@@ -134,16 +169,7 @@ header {
     z-index:10000000000000;
   }
 
-  .menu {
-      z-index:1000000; 
-      font-weight:bold; 
-      font-size:0.8em; 
-      width:100%; 
-      background:#f1f1f1;  
-      position:fixed;
-      text-align:center; 
-      font-size:12px;
-    }
+  
 
   .menu nav {
       margin: 0; 
