@@ -4,8 +4,9 @@
 
 let stickyTop = $('#stickyBanner').offset().top;
 
-
-$(window).resize(function(){
+//hide hamburger and show once scrolled
+// show hamburger on mobile always
+$(document).ready(function(){
   if ($(window).width() <= 480){
     $('.nav-bar').hide();
     $('.hamburger').show();
@@ -79,18 +80,6 @@ $(function() {
   });
 });
 
-
-
-//hide hamburger and show once scrolled
-$(document).ready(function(){
-  if ($(window).width() <= 480){	
-    $('.nav-bar').hide();
-    $('.hamburger').show();
-  } else {
-    $('.nav-bar').show();
-    $('.hamburger').hide();
-  }	
-});
 
 
 //menu animation
