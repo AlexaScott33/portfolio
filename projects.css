@@ -180,6 +180,40 @@
     }
 }
 
+/* @media only screen and (min-width: 1024px) {
+    .project-section {
+        margin: 8rem 0;
+    }
+
+    .project-one-img {
+        width: 26rem;
+        margin-left: 1rem;
+    }
+
+    .project-info {
+        float: right;
+        width: 35rem;
+        margin-right: 1rem;
+        padding: 0;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .project-two-img {
+        width: 11rem;
+        margin-left: 9rem;
+    }
+
+    .project-three-img {
+        width: 26rem;
+        margin-left: 1rem;
+    }
+
+    .project-four-img {
+        width: 26rem;
+        margin-left: 1rem;
+    }
+} */
+
 
 
 .project-section h2 {

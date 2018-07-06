@@ -66,6 +66,22 @@
     }
 }
 
+/* @media only screen and (min-width: 1024px) {
+    .about-section {
+        margin: 8rem 0;
+    }
+
+    .profile-img {
+        width: 22rem; 
+        margin-left: 3rem;
+    }
+
+    .info {
+        width: 30rem;
+        margin-right: 6rem;
+    }
+} */
+
 .about-section h2 {
     width: 100%; 
     text-align: center; 

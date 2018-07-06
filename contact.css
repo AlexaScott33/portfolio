@@ -20,17 +20,31 @@
     }
 }
 
-@media only screen and (min-width: 640px) {
+@media only screen and (min-width: 320px) {
+    
+}
+
+/* @media only screen and (min-width: 640px) {
     
 }
 
 @media only screen and (min-width: 960px) {
-   
+    .contact-section {
+        margin: 5rem 0;
+    }
 }
 
+@media only screen and (min-width: 1024px) {
+    .contact-section {
+        margin-top: 14rem;
+    }
+} */
+
 .contact-section {
-    margin: 5rem 0;
+    margin: 4rem 0;
 }
+
+
 
 .contact-section h2 {
     width: 100%; 
