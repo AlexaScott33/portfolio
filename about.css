@@ -1,5 +1,63 @@
-.about-section {
-    margin: 5rem 0;
+@media only screen and (min-width: 320px) {
+    .about-section {
+        margin: 4rem 0;
+    }
+
+    h2 span { 
+        color: #FA4659; 
+        font-size: 1.5rem;
+        /* padding:0 10px;  */
+    }
+
+    .profile-img {
+        width: 18rem; 
+        margin-left: 1.2rem;
+    }
+
+    .project-name {
+        font-size: 1.3rem;
+        text-align: center;
+        margin-top: .5rem;
+    }
+
+    .info {
+        background-color: #FCFCFC;
+        font-family: 'Roboto', sans-serif;
+    }
+}
+
+@media only screen and (min-width: 640px) {
+    h2 span { 
+        color: #FA4659; 
+        font-size: 2rem;
+        /* padding:0 10px;  */
+    }
+
+    .profile-img {
+        width: 20rem; 
+    }
+}
+
+@media only screen and (min-width: 960px) {
+    .about-section {
+        margin: 5rem 0;
+    }
+    
+    .profile-img {
+        width: 25rem; 
+    }
+
+    .info {
+        width: 25rem;
+        float: right;
+        background-color: #FCFCFC;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .project-name {
+        font-size: 1.5rem;
+        text-align: center;
+    }
 }
 
 .about-section h2 {
@@ -10,10 +68,7 @@
     /* margin: 10px 0 20px;  */
  } 
  
- h2 span { 
-     color: #FA4659; 
-     /* padding:0 10px;  */
- }
+
 
 .about-container {
     /* background-color: #FCFCFC; */
@@ -62,10 +117,5 @@
     background-color: #FCFCFC;
 }
 
-.info {
-    width: 50%;
-    float: right;
-    background-color: #FCFCFC;
-    font-family: 'Roboto', sans-serif;
-}
+
 

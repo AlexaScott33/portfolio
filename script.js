@@ -2,6 +2,16 @@
 
 /* global $ */
 
+$(window).resize(function(){
+  if ($(window).width() <= 640){	
+    $('.nav-bar').hide();
+    $('.hamburger').show();
+  } else {
+    $('.nav-bar').show();
+    $('.hamburger').hide();
+  }	
+});
+
 //nav scroll to on click
 $(function() {
   $('a[href*=#]:not([href=#])').click(function() {
@@ -20,6 +30,20 @@ $(function() {
   });
 });
 
+let stickyTop = $('#stickyBanner').offset().top;
+
+$(window).on( 'scroll', function(){
+  if ($(window).scrollTop() >= stickyTop) {
+    console.log('not at the top');
+    $('.nav-bar').hide();
+    $('.hamburger').show();
+  } else {
+    console.log('at the top');
+    $('.hamburger').hide();
+    $('.nav-bar').show();
+  }
+});
+
 //hide hamburger and show once scrolled
 $(document).ready(function(){
   $('.hamburger').hide();
@@ -27,6 +51,11 @@ $(document).ready(function(){
     $('.nav-bar').hide();
     $('.hamburger').show();
   }));
+  if ($(window).scrollTop() >= stickyTop) {
+    console.log('not at the top');
+    $('.nav-bar').hide();
+    $('.hamburger').show();
+  }
 });
 
 
@@ -62,17 +91,7 @@ $( document ).ready(function() {
 
 
 
-let stickyTop = $('#stickyBanner').offset().top;
 
-$(window).on( 'scroll', function(){
-  if ($(window).scrollTop() >= $('#stickyBanner').offset().top) {
-    console.log('not at the top');
-    $('.nav-bar').hide();
-  } else {
-    console.log('at the top');
-    $('.nav-bar').show();
-  }
-});
 
 // function on() {
 //   document.getElementById('overlay').style.background = 'url(https://images.unsplash.com/photo-1503756234508-e32369269deb?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=47b63db904d2c72377ffc588f645eb45&auto=format&fit=crop&w=2550&q=80)';

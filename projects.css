@@ -1,6 +1,135 @@
-.project-section {
-    margin: 5rem 0;
+@media only screen and (min-width: 320px) {
+    .project-section {
+        margin: 4rem 0;
+    }
+
+    .project-one-img {
+        width: 18rem; 
+        margin-left: 1.2rem;
+    }
+
+    .icon-container {
+        margin-top: 1rem;
+        margin-left: 4rem;
+        margin-bottom: 1rem;
+    }
+
+    .tech-icon-mongo {
+        width: 2.2rem;
+        /* padding: 1rem 1rem; */
+    }
+    
+    .tech-icon-express {
+        width: 3.5rem;
+    }
+    
+    .tech-icon-react {
+        width: 3.2rem;
+    }
+    
+    .tech-icon-node {
+        width: 2.2rem;
+    }
+
+    .github-link {
+        padding-left: 1rem;
+    }
+
+    .github-icon {
+        width: 1rem;
+    }
+
+    .project-wrapper {
+        margin-bottom: 5rem;
+    }
+
+    .project-two-img {
+        width: 7rem;
+        margin-left: 7.2rem;
+    }
+
+    .project-three-img {
+        width: 18rem; 
+        margin-left: 1.2rem;
+    }
+
+    .project-four-img {
+        width: 18rem; 
+        margin-left: 1.2rem;
+    }
 }
+
+@media only screen and (min-width: 640px) {
+    .project-section {
+        margin: 5rem 0;
+    }
+
+    .project-one-img {
+        width: 20rem; 
+    }
+
+    .tech-icon-mongo {
+        width: 3.2rem;
+        /* padding: 1rem 1rem; */
+    }
+    
+    .tech-icon-express {
+        width: 5.5rem;
+    }
+    
+    .tech-icon-react {
+        width: 5.2rem;
+    }
+    
+    .tech-icon-node {
+        width: 4.2rem;
+    }
+    .github-icon {
+        width: 1rem;
+    }
+
+    .project-two-img {
+        width: 15%;
+        padding-left: 10rem;
+    }
+}
+
+@media only screen and (min-width: 960px) {
+    .project-section {
+        margin: 5rem 0;
+    }
+
+    .project-one-img {
+        width: 25rem;
+    }
+
+    .tech-icon-mongo {
+        width: 3.2rem;
+        /* padding: 1rem 1rem; */
+    }
+    
+    .tech-icon-express {
+        width: 5.5rem;
+    }
+    
+    .tech-icon-react {
+        width: 5.2rem;
+    }
+    
+    .tech-icon-node {
+        width: 4.2rem;
+    }
+    .github-icon {
+        width: 1rem;
+    }
+
+    .project-two-img {
+        width: 15%;
+        padding-left: 10rem;
+    }
+}
+
+
 
 .project-section h2 {
     width: 100%; 
@@ -23,45 +152,7 @@
     background-image: url(https://user-images.githubusercontent.com/24361293/42062664-13bb2546-7ae3-11e8-896e-398cde45e59a.png);
 } */
 
-.project-name {
-    font-size: 1.5rem;
-    text-align: center;
-}
 
-.project-img {
-    width: 50%;
-}
-
-.project-one-img {
-    width: 50%;
-}
-
-.project-two-img {
-    width: 15%;
-    padding-left: 10rem;
-}
-
-.tech-icon-mongo {
-    width: 3.2rem;
-    /* padding: 1rem 1rem; */
-}
-
-.tech-icon-express {
-    width: 5.5rem;
-}
-
-.tech-icon-react {
-    width: 5.2rem;
-}
-
-.tech-icon-node {
-    width: 4.2rem;
-}
-
-.github-icon {
-    padding: 1rem 1rem;
-    width: 5%;
-}
 
 .project-box-one, .project-box-two, .project-box-three, .project-box-four {
     width: 50%;

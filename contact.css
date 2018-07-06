@@ -1,3 +1,64 @@
+@media only screen and (min-width: 320px) {
+    .github-img {
+        width: 2rem;
+    }
+    
+    
+    .linked-in-img {
+        width: 2rem;
+        display: inline-block;
+    }
+    
+    .email-img {
+        width: 2rem;
+        display: inline-block;
+    }
+    
+    .angel-list-img {
+        width: 2rem;
+        display: inline-block;
+    }
+}
+
+@media only screen and (min-width: 640px) {
+    
+}
+
+@media only screen and (min-width: 960px) {
+    .project-section {
+        margin: 5rem 0;
+    }
+
+    .project-one-img {
+        width: 25rem;
+    }
+
+    .tech-icon-mongo {
+        width: 3.2rem;
+        /* padding: 1rem 1rem; */
+    }
+    
+    .tech-icon-express {
+        width: 5.5rem;
+    }
+    
+    .tech-icon-react {
+        width: 5.2rem;
+    }
+    
+    .tech-icon-node {
+        width: 4.2rem;
+    }
+    .github-icon {
+        width: 1rem;
+    }
+
+    .project-two-img {
+        width: 15%;
+        padding-left: 10rem;
+    }
+}
+
 .contact-section {
     margin: 5rem 0;
 }
@@ -20,22 +81,3 @@
  }
 
 
-.github-img {
-    width: 2%;
-}
-
-
-.linked-in-img {
-    width: 2%;
-    display: inline-block;
-}
-
-.email-img {
-    width: 2%;
-    display: inline-block;
-}
-
-.angel-list-img {
-    width: 2%;
-    display: inline-block;
-}
