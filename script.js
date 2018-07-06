@@ -6,41 +6,53 @@ let stickyTop = $('#stickyBanner').offset().top;
 
 
 $(window).resize(function(){
-  if ($(window).width() <= 640){	
+  if ($(window).width() <= 480){
+    console.log('480');	
     $('.nav-bar').hide();
     $('.hamburger').show();
-  } else {
+    $(window).on( 'scroll', function(){
+      if ($(window).scrollTop() >= stickyTop) {
+        //console.log('not at the top');
+        $('.nav-bar').hide();
+        $('.hamburger').show();
+      }
+    });
+  }
+  if ($(window).width() >= 640){	
+    console.log('640');	
     $('.nav-bar').show();
     $('.hamburger').hide();
-  }	
-});
-
-// $(document).ready(function(){
-//   if ($(window).width() <= 640){	
-//     $('.nav-bar').hide();
-//     $('.hamburger').show();
-//   }
-//   else {
-//     $('.nav-bar').show();
-//     $('.hamburger').hide();
-//   }	
-// });
-
-
-$(window).on( 'scroll', function(){
-  if ($(window).scrollTop() >= stickyTop) {
-    //console.log('not at the top');
-    $('.nav-bar').hide();
-    $('.hamburger').show();
-  } 
-  else {
-    //console.log('at the top');
-    $('.hamburger').hide();
+    $(window).on( 'scroll', function(){
+      if ($(window).scrollTop() >= stickyTop) {
+        //console.log('not at the top');
+        $('.nav-bar').hide();
+        $('.hamburger').show();
+      } 
+      else {
+        //console.log('at the top');
+        $('.hamburger').hide();
+        $('.nav-bar').show();
+      }
+    });
+  }
+  else if ($(window).width() >= 960){	
+    console.log('960');	
     $('.nav-bar').show();
+    $('.hamburger').hide();
+    $(window).on( 'scroll', function(){
+      if ($(window).scrollTop() >= stickyTop) {
+        //console.log('not at the top');
+        $('.nav-bar').hide();
+        $('.hamburger').show();
+      } 
+      else {
+        //console.log('at the top');
+        $('.hamburger').hide();
+        $('.nav-bar').show();
+      }
+    });
   }
 });
-
-
 
 
 //nav scroll to on click
@@ -75,13 +87,8 @@ $(document).ready(function(){
 });
 
 
-
 //menu animation
 $( document ).ready(function() {
-  // $('.hamburger').hide();
-  // if($(window).scroll(function(){
-  //   $('.nav-bar').hide();
-  //   $('.hamburger').show();
   $( '.cross' ).hide();
   $( '.menu' ).hide();
   $( '.hamburger' ).click(function() {
