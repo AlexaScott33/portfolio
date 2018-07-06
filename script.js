@@ -7,46 +7,52 @@ let stickyTop = $('#stickyBanner').offset().top;
 
 $(window).resize(function(){
   if ($(window).width() <= 480){
-    console.log('480');	
     $('.nav-bar').hide();
     $('.hamburger').show();
     $(window).on( 'scroll', function(){
       if ($(window).scrollTop() >= stickyTop) {
-        //console.log('not at the top');
         $('.nav-bar').hide();
         $('.hamburger').show();
       }
     });
   }
   if ($(window).width() >= 640){	
-    console.log('640');	
     $('.nav-bar').show();
     $('.hamburger').hide();
     $(window).on( 'scroll', function(){
       if ($(window).scrollTop() >= stickyTop) {
-        //console.log('not at the top');
         $('.nav-bar').hide();
         $('.hamburger').show();
       } 
       else {
-        //console.log('at the top');
         $('.hamburger').hide();
         $('.nav-bar').show();
       }
     });
   }
-  else if ($(window).width() >= 960){	
-    console.log('960');	
+  if ($(window).width() >= 960){	
     $('.nav-bar').show();
     $('.hamburger').hide();
     $(window).on( 'scroll', function(){
       if ($(window).scrollTop() >= stickyTop) {
-        //console.log('not at the top');
         $('.nav-bar').hide();
         $('.hamburger').show();
       } 
       else {
-        //console.log('at the top');
+        $('.hamburger').hide();
+        $('.nav-bar').show();
+      }
+    });
+  }
+  if ($(window).width() >= 1600){	
+    $('.nav-bar').show();
+    $('.hamburger').hide();
+    $(window).on( 'scroll', function(){
+      if ($(window).scrollTop() >= stickyTop) {
+        $('.nav-bar').hide();
+        $('.hamburger').show();
+      } 
+      else {
         $('.hamburger').hide();
         $('.nav-bar').show();
       }
@@ -77,7 +83,7 @@ $(function() {
 
 //hide hamburger and show once scrolled
 $(document).ready(function(){
-  if ($(window).width() <= 640){	
+  if ($(window).width() <= 480){	
     $('.nav-bar').hide();
     $('.hamburger').show();
   } else {
