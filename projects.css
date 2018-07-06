@@ -244,6 +244,31 @@
     }
 }
 
+@media only screen and (min-width: 1440px) {
+    .project-one-img {
+        width: 32rem;
+        margin-left: 7rem;
+    }
+
+    .project-info {
+        margin-right: 7rem;
+    }
+
+    .project-two-img {
+        margin-left: 17rem;
+    }
+
+    .project-three-img {
+        width: 32rem;
+        margin-left: 7rem;
+    }
+
+    .project-four-img {
+        width: 32rem;
+        margin-left: 7rem;
+    }
+}
+
 
 
 .project-section h2 {
