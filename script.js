@@ -34,11 +34,11 @@ let stickyTop = $('#stickyBanner').offset().top;
 
 $(window).on( 'scroll', function(){
   if ($(window).scrollTop() >= stickyTop) {
-    console.log('not at the top');
+    //console.log('not at the top');
     $('.nav-bar').hide();
     $('.hamburger').show();
   } else {
-    console.log('at the top');
+    //console.log('at the top');
     $('.hamburger').hide();
     $('.nav-bar').show();
   }
@@ -52,7 +52,7 @@ $(document).ready(function(){
     $('.hamburger').show();
   }));
   if ($(window).scrollTop() >= stickyTop) {
-    console.log('not at the top');
+    //console.log('not at the top');
     $('.nav-bar').hide();
     $('.hamburger').show();
   }
