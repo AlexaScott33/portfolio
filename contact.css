@@ -25,38 +25,7 @@
 }
 
 @media only screen and (min-width: 960px) {
-    .project-section {
-        margin: 5rem 0;
-    }
-
-    .project-one-img {
-        width: 25rem;
-    }
-
-    .tech-icon-mongo {
-        width: 3.2rem;
-        /* padding: 1rem 1rem; */
-    }
-    
-    .tech-icon-express {
-        width: 5.5rem;
-    }
-    
-    .tech-icon-react {
-        width: 5.2rem;
-    }
-    
-    .tech-icon-node {
-        width: 4.2rem;
-    }
-    .github-icon {
-        width: 1rem;
-    }
-
-    .project-two-img {
-        width: 15%;
-        padding-left: 10rem;
-    }
+   
 }
 
 .contact-section {
