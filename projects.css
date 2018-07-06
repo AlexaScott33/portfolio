@@ -206,7 +206,7 @@
     }
 }
 
-/* @media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1024px) {
     .project-section {
         margin: 8rem 0;
     }
@@ -238,7 +238,11 @@
         width: 26rem;
         margin-left: 1rem;
     }
-} */
+
+    .project-margin-bottom {
+        margin-bottom: 13rem;
+    }
+}
 
 
 
