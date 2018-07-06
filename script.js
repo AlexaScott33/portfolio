@@ -15,15 +15,16 @@ $(window).resize(function(){
   }	
 });
 
-$(document).ready(function(){
-  if ($(window).width() <= 640){	
-    $('.nav-bar').hide();
-    $('.hamburger').show();
-  } else {
-    $('.nav-bar').show();
-    $('.hamburger').hide();
-  }	
-});
+// $(document).ready(function(){
+//   if ($(window).width() <= 640){	
+//     $('.nav-bar').hide();
+//     $('.hamburger').show();
+//   }
+//   else {
+//     $('.nav-bar').show();
+//     $('.hamburger').hide();
+//   }	
+// });
 
 
 $(window).on( 'scroll', function(){
