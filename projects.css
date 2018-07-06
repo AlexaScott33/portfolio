@@ -118,6 +118,32 @@
     }
 }
 
+@media only screen and (min-width: 768px) {
+    .project-section {
+        margin-top: 13rem;
+    }
+
+    .project-one-img {
+        margin-left: 8.2rem;
+    }
+
+    .project-info {
+        padding: 1rem 6rem;
+    }
+
+    .project-two-img {
+        margin-left: 19.2rem;
+    }
+
+    .project-three-img {
+        margin-left: 7.2rem;
+    }
+
+    .project-four-img {
+        margin-left: 7.2rem;
+    }
+}
+
 @media only screen and (min-width: 960px) {
     .project-section {
         margin: 5rem 0;
