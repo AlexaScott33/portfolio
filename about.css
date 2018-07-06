@@ -75,53 +75,11 @@
  } 
  
 
-
-.about-container {
-    /* background-color: #FCFCFC; */
-    /* padding-right: 50%; */
-    /* align-self: auto; */
-}
-
 .about {
     width: 25%;
     display: inline-block;
 }
 
-.about-skills {
-    /* float: right; */
-}
-
-.about-box-one {
-    width: 500px;
-    height: 500px;
-    display: inline-block;
-    background-color: #FCFCFC;
-}
-
-.about-box-two {
-    width: 500px;
-    height: 500px;
-    display: inline-block;
-    background-color: #FCFCFC;
-    background: url(https://images.unsplash.com/photo-1518658963559-3698900fc8a4?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=aefc46a158500b5950d052278a793663&auto=format&fit=crop&w=1267&q=80) no-repeat center center; 
-    background-size: cover;
-}
-
-.about-box-three {
-    width: 500px;
-    height: 500px;
-    display: inline-block;
-    background-color: #FCFCFC;
-    background: url(https://images.unsplash.com/photo-1503756234508-e32369269deb?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=47b63db904d2c72377ffc588f645eb45&auto=format&fit=crop&w=2550&q=80) no-repeat center center; 
-    background-size: cover;
-}
-
-.about-box-four {
-    width: 500px;
-    height: 500px;
-    display: inline-block;
-    background-color: #FCFCFC;
-}
 
 
 

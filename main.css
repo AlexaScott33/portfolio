@@ -16,9 +16,6 @@ header {
     padding: 20px 15px;
 }
 
-/* .nav-bar {
-    display: none;
-} */
 
 .background-img {
     background: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('https://images.unsplash.com/photo-1522855722217-22dab14b0b73?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=dcc557537c1a7695577af11bbd82fc5b&auto=format&fit=crop&w=1400&q=80');
@@ -76,10 +73,6 @@ header {
     .title {
         padding: 15rem 0;
     }
-
-    /* .nav-bar {
-        display: block;
-    } */
 }
 
 
