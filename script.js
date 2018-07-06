@@ -2,6 +2,9 @@
 
 /* global $ */
 
+let stickyTop = $('#stickyBanner').offset().top;
+
+
 $(window).resize(function(){
   if ($(window).width() <= 640){	
     $('.nav-bar').hide();
@@ -11,6 +14,32 @@ $(window).resize(function(){
     $('.hamburger').hide();
   }	
 });
+
+$(document).ready(function(){
+  if ($(window).width() <= 640){	
+    $('.nav-bar').hide();
+    $('.hamburger').show();
+  } else {
+    $('.nav-bar').show();
+    $('.hamburger').hide();
+  }	
+});
+
+
+$(window).on( 'scroll', function(){
+  if ($(window).scrollTop() >= stickyTop) {
+    //console.log('not at the top');
+    $('.nav-bar').hide();
+    $('.hamburger').show();
+  } else {
+    //console.log('at the top');
+    $('.hamburger').hide();
+    $('.nav-bar').show();
+  }
+});
+
+
+
 
 //nav scroll to on click
 $(function() {
@@ -30,19 +59,7 @@ $(function() {
   });
 });
 
-let stickyTop = $('#stickyBanner').offset().top;
 
-$(window).on( 'scroll', function(){
-  if ($(window).scrollTop() >= stickyTop) {
-    //console.log('not at the top');
-    $('.nav-bar').hide();
-    $('.hamburger').show();
-  } else {
-    //console.log('at the top');
-    $('.hamburger').hide();
-    $('.nav-bar').show();
-  }
-});
 
 //hide hamburger and show once scrolled
 $(document).ready(function(){
