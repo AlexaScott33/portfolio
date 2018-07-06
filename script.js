@@ -46,16 +46,13 @@ $(window).on( 'scroll', function(){
 
 //hide hamburger and show once scrolled
 $(document).ready(function(){
-  $('.hamburger').hide();
-  if($(window).scroll(function(){
+  if ($(window).width() <= 640){	
     $('.nav-bar').hide();
     $('.hamburger').show();
-  }));
-  if ($(window).scrollTop() >= stickyTop) {
-    //console.log('not at the top');
-    $('.nav-bar').hide();
-    $('.hamburger').show();
-  }
+  } else {
+    $('.nav-bar').show();
+    $('.hamburger').hide();
+  }	
 });
 
 
