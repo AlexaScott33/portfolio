@@ -4,6 +4,16 @@
 
 let stickyTop = $('#stickyBanner').offset().top;
 
+$(document).ready(function(){
+  if ($('.menu').show()){
+    $(window).on( 'scroll', function(){
+      $('.menu').hide();
+      $('.cross').hide();
+    });
+  }
+  
+});
+
 //hide hamburger and show once scrolled
 // show hamburger on mobile always
 $(document).ready(function(){

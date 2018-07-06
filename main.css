@@ -18,15 +18,13 @@ header {
 
 
 .background-img {
-    background: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('http://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=e5a31d03ddee66863a599421f792e07b&auto=format&fit=crop&w=1350&q=80');
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('https://images.unsplash.com/photo-1522855722217-22dab14b0b73?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=dcc557537c1a7695577af11bbd82fc5b&auto=format&fit=crop&w=1400&q=80');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
   }
 
   
-
-
 @media only screen and (min-width: 320px) {
     #logo {
         width: 3rem;
@@ -37,20 +35,20 @@ header {
     }
 
     .title {
-        padding: 7rem 0;
+        padding-top: 1rem;
+        padding-bottom: 19rem;
     }
 
     .title h1 {
+        margin-bottom: 1.5rem;
         color: #FCFCFC;
-        font-size: 3rem;
+        font-size: 2.5rem;
         text-align: center;
-        margin-bottom: 6rem;
     }
 
     .title h2 {
-        padding-bottom: 2rem;
         color: #FCFCFC;
-        font-size: 2.5rem;
+        font-size: 2rem;
         text-align: center;
     }
 
@@ -71,7 +69,19 @@ header {
     }
 
     .title {
-        padding: 15rem 0;
+        padding-top: 4rem;
+        padding-bottom: 30rem;
+    }
+
+    .title h1 {
+        font-size: 4rem;
+    }
+
+    .title h2 {
+        padding-bottom: 2rem;
+        color: #FCFCFC;
+        font-size: 2.5rem;
+        text-align: center;
     }
 }
 
