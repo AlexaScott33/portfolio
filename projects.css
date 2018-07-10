@@ -1,3 +1,30 @@
+.img-wrap {
+    position: relative;
+    display: inline-block;
+    height: 3%;
+    width: 9%;
+  }
+  
+  .img-description {
+    /* position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(29, 106, 154, 0.72);
+    color: #fff; */
+    visibility: hidden;
+    opacity: 0;
+    font-size: .8rem;
+  
+    /* transition effect. not necessary */
+    transition: opacity .2s, visibility .2s;
+  }
+  
+  .img-wrap:hover .img-description {
+    visibility: visible;
+    opacity: 1;
+  }
 @media only screen and (min-width: 320px) {
     .project-section {
         margin: 4rem 0;
@@ -80,7 +107,7 @@
 
     .icon-container {
         margin-top: 1rem;
-        margin-bottom: 1rem;
+        margin-bottom: 0;
     }
 
     .tech-icon-mongo {
@@ -175,14 +202,17 @@
     }
     
     .tech-icon-express {
+        margin-left: -7px;
         width: 4.5rem;
     }
     
     .tech-icon-react {
+        margin-left: 3px;
         width: 4.2rem;
     }
     
     .tech-icon-node {
+        margin-left: 11px;
         width: 3.2rem;
     }
 
