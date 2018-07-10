@@ -16,6 +16,12 @@ header {
     padding: 20px 15px;
 }
 
+.title-background {
+    padding: .5rem .5rem;
+    background-color: #2C2C2C;
+    color: #FCFCFC;
+}
+
 
 .background-img {
     background: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('https://images.unsplash.com/photo-1522855722217-22dab14b0b73?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=dcc557537c1a7695577af11bbd82fc5b&auto=format&fit=crop&w=1400&q=80');
@@ -35,7 +41,7 @@ header {
     }
 
     .title {
-        padding-top: 1rem;
+        padding-top: 12rem;
         padding-bottom: 19rem;
     }
 
@@ -94,7 +100,7 @@ header {
     }
 
     .title {
-        padding-top: 4rem;
+        padding-top: 19rem;
         padding-bottom: 30rem;
     }
 
@@ -138,7 +144,7 @@ header {
     position: fixed;
 }
 
-.hamburger{
+.hamburger {
     background:none;
     position:fixed;
     top:0;
@@ -154,7 +160,7 @@ header {
     z-index:10000000000000;
   }
 
-  .cross{
+  .cross {
     background:none;
     position:fixed;
     top:0px;
