@@ -20,7 +20,23 @@
     }
 }
 
+.contact-text {
+    font-size: 1.8rem;
+    color: #FCFCFC;
+}
 
+.contact-p {
+    padding: 2rem 0;
+}
+
+.contact-wrapper {
+    text-align: center;
+    background-color: #33CCCC;
+    color: #2C2C2C;
+    width: 100%;
+    padding: 5rem 0;
+    /* height: 600px; */
+}
 /* @media only screen and (min-width: 640px) {
     
 }
@@ -37,28 +53,19 @@
     }
 } */
 
-.contact-section {
+/* .contact-section {
     margin: 4rem 0;
-}
+} */
 
 
 
-.contact-section h2 {
+/* .contact-section h2 {
     width: 100%; 
     text-align: center; 
-    /* border-bottom: 1px solid #FA4659; 
-    line-height: 0.1em; */
     margin: 10px 0 20px; 
- }
+ } */
 
- .contact-wrapper {
-     text-align: center;
-     background-color: #33CCCC;
-     color: #2C2C2C;
-     width: 100%;
-     padding: 4rem 0;
-     /* height: 600px; */
- }
+
 
 
 
