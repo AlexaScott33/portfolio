@@ -54,7 +54,7 @@
 @media only screen and (min-width: 768px) {
     .profile-img {
         margin-left: 3.2rem;
-        margin-top: 3rem;
+        margin-top: 6rem;
     }
 
 }
@@ -88,6 +88,7 @@
     .profile-img {
         width: 22rem; 
         margin-left: 3rem;
+        margin-top: 3rem;
     }
 
     .info {
