@@ -11,7 +11,7 @@
 
     .profile-img {
         width: 18rem; 
-        margin-left: 4.2rem;
+        margin-left: 3.2rem;
     }
 
     .project-name {
@@ -23,6 +23,12 @@
     .info {
         background-color: #FCFCFC;
         font-family: 'Roboto', sans-serif;
+    }
+}
+
+@media only screen and (min-width: 414px) {
+    .profile-img { 
+        margin-left: 4.2rem;
     }
 }
 
