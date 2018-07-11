@@ -30,6 +30,19 @@
     opacity: 1;
   }
 
+  .project-section h2 {
+    width: 100%; 
+    text-align: center; 
+    margin: 10px 0 20px; 
+ } 
+ 
+
+.tech-stack {
+    font-weight: 800;
+    padding-top: 1rem;
+    padding-left: 1rem;
+}
+
   @media only screen and (min-width: 320px) {
     .project-section {
         margin: 4rem 0;
@@ -338,17 +351,8 @@
     }
 }
 
-
-
-.project-section h2 {
-    width: 100%; 
-    text-align: center; 
-    margin: 10px 0 20px; 
- } 
- 
-
-.tech-stack {
-    font-weight: 800;
-    padding-top: 1rem;
-    padding-left: 1rem;
+@media only screen and (min-width: 1650px) {
+    .project-info {
+        margin-right: 17rem;
+    }
 }

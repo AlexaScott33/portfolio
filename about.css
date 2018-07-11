@@ -108,6 +108,16 @@
     }
 }
 
+@media only screen and (min-width: 1650px) {
+    .profile-img {
+        margin-left: 12rem;
+    }
+
+    .info {
+        margin-right: 9rem;
+    }
+}
+
 .about-section h2 {
     width: 100%; 
     text-align: center; 
