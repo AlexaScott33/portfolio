@@ -119,5 +119,6 @@ $( document ).ready(function() {
 $(document).ready(function(){
   if ($(window).width() <= 480){
     $('.img-description').hide();
+    $('.img-description-rn').hide();
   }
 });
